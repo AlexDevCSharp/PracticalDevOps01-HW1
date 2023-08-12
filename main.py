@@ -1,5 +1,5 @@
-def sendString():
+def sendtext():
     return "Hello, World!"
 
-def printString(sendString):
-    print(sendString)
+def printString(sendtext):
+    print(sendtext)

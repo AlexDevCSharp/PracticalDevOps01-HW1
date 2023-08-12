@@ -1,5 +1,5 @@
-from main import sendString
+from main import sendtext
 
 
 def test_hello():
-    assert sendString() == "Hello, World!"
+    assert sendtext() == "Hello, World!"
