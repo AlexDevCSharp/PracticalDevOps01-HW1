@@ -1,5 +1,5 @@
-def sendtext():
+def generate():
     return "Hello, World!"
 
-def printString(sendtext):
-    print(sendtext)
+def printString(generate):
+    print(generate)

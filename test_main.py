@@ -1,5 +1,5 @@
-from main import sendtext
+from main import generate
 
 
 def test_hello():
-    assert sendtext() == "Hello, World!"
+    assert generate() == "Hello, World!"
