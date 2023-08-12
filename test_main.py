@@ -1,5 +1,5 @@
-from main import generate
+from main import main
 
 
 def test_hello():
-    assert generate() == "Hello, World!"
+    assert main() == "Hello, World!"

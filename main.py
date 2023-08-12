@@ -1,5 +1,11 @@
-def generate():
-    return "Hello, World!"
+def main():
+    text = "Hello, World!"
+    return printstring(text)
 
-def printString(generate):
-    print(generate)
+
+def printstring(text):
+    print(text)
+    return text
+
+
+main()
