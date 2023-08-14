@@ -22,6 +22,11 @@ jobs:
     - name: Test with pytest
       run: |
         make test
+    - name: build RPM package
+      id: rpm
+      uses: naveenrajm7/rpmbuild@master
+      with:
+        spec_file: "main.spec"
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
