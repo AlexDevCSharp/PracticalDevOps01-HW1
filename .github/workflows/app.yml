@@ -22,10 +22,11 @@ jobs:
     - name: Test with pytest
       run: |
         make test
-    -name: Upload artifact
-      uses: actions/upload-artifact@v2.0.0
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
       with:
         name: dist-artifact
         path: dist/
+   
   
     
